@@ -8,3 +8,8 @@ In tomcat in server.xml file:
    clientAuth="false" sslProtocol="TLS"
    keystoreFile="C:\Users\michu\.keystore" keystorePass="changeit" />
    `
+   
+   to run spring boot:
+   
+   mvn clean install
+   mvn spring-boot:run
