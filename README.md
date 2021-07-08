@@ -10,11 +10,6 @@ In tomcat in server.xml file:
    <Connector port="8080" protocol="HTTP/1.1"
                connectionTimeout="20000" proxyName="localhost" proxyPort="8443" scheme="https" secure="true"/>
    ```
-   
-   to run spring boot:
-   
-   mvn clean install
-   mvn spring-boot:run
 
 
 https://www.baeldung.com/spring-channel-security-https
