@@ -16,8 +16,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .frameOptions().sameOrigin()
                 .httpStrictTransportSecurity().disable();
 
-        http.requiresChannel()
-                .antMatchers("/login.html").requiresSecure();
+        //http.requiresChannel()
+        //        .antMatchers("/login.html").requiresSecure();
 
         http.formLogin()
                 .loginPage("/login.html")
