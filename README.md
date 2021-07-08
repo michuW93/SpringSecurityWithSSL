@@ -16,3 +16,5 @@ In tomcat in server.xml file:
 
 
 https://www.baeldung.com/spring-channel-security-https
+
+https://serverfault.com/questions/742922/configure-tomcat-behind-reverseproxy
