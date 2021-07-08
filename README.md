@@ -7,6 +7,7 @@ In tomcat in server.xml file:
    maxThreads="150" SSLEnabled="true" scheme="https" secure="true"
    clientAuth="false" sslProtocol="TLS"
    keystoreFile="C:\Users\michu\.keystore" keystorePass="changeit" />
+   
    <Connector port="8080" protocol="HTTP/1.1"
                connectionTimeout="20000" proxyName="localhost" proxyPort="8443" scheme="https" secure="true"/>
    `
