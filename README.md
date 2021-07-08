@@ -13,3 +13,6 @@ In tomcat in server.xml file:
    
    mvn clean install
    mvn spring-boot:run
+
+
+https://www.baeldung.com/spring-channel-security-https
