@@ -1,5 +1,4 @@
 # SpringSecurityWithSSL
-https for login.html, http for rest 
 
 In tomcat in server.xml file:
 ```xml
